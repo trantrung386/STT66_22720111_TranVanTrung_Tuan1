@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #c9dfd1;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c9dfd1;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.anh{
+    float: left;
+    margin-right: 2px;
+    width: 150;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.footer {
+    text-align: right;
+    font-style: italic;
+    margin-top: 20px;
+    color: #bdb4b4;
+}

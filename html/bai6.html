@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FromDK</title>
+    <style>
+        form{
+            background-color: rgb(0, 183, 255);
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .cmt{
+            width: 300px;
+            height: 100px;
+        }
+        label{
+            margin-right: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="submit" method="="post>
+        <h2>Registration From</h2>
+        <p>Register your Jackson Electrrnics product here</p>
+        <label for="firstname"> Firstname:</label>
+        <input type="text" name="firstname" required>
+        <label for="lastname">Lastname: </label>
+        <input type="text" name="lastname" required>
+        <p></p>
+        <label for="addr1">Address#1:</label>
+        <input type="text" name="addr1">
+        <p></p>
+        <label for="addr2">Address#2:</label> 
+        <input type="text" name="addr2">
+        <p></p>
+        <label for="city">City:</label>
+        <input type="text" name="city">
+        <label for="state">State: </label>
+        <input type="text" name = "state" size="10">
+        <label for="zip">Zip: </label>
+        <input type="text" name = "zip" size="10">
+        <p></p>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="us">USA</option>
+            <option value="vn">VietNam</option>
+            <option value="jp">Janpan</option>
+        </select>
+        <hr>
+        <label for="product">Product: </label>
+        <select name="product" id="product">
+            <option value="giay">Giay</option>
+            <option value="mu">Mu</option>
+            <option value="ao">Ao</option>
+        </select>
+        <p></p>
+        <label for="date">Date Purchased: </label>
+        <input type="text" name="dateP" id="dateP">
+        <p></p>
+        <label for="serial">Serial#</label>
+        <input type="text" name="serial" id="serial">
+        <p></p>
+        <label for="usefor">Used for:</label>
+        <input type="radio" name="a">Home
+        <input type="radio" name="a">Educational Institution
+        <input type="radio" name="a">Business
+        <input type="radio" name="a">Other
+        <input type="radio" name="a">Goverment
+        <p></p>
+        <label for="system">System(check all that apply):</label>
+        <input type="checkbox">Windows
+        <input type="checkbox">UNIX
+        <input type="checkbox">Macintosh
+        <input type="checkbox">Other
+        <hr>
+        <label for="comments">Comment?</label>
+        <input type="text" class="cmt">
+        <p></p>
+        <input type="submit" value = "Click to Register">
+        <input type="submit" value="Click to cancel">
+
+    </form>
+</body>
+</html>
